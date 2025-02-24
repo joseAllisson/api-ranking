@@ -10,8 +10,8 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 1. Clone o repositório:
 
 ```bash
-  git clone <URL_DO_REPOSITORIO>
-  cd nlw
+  git clone https://github.com/joseAllisson/api-ranking.git
+  cd api-ranking
 ```
 
 2. Instale as dependências:
@@ -48,6 +48,7 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 7. Acesse a documentação da API:
 
 - Via Swagger em: [http://localhost:3000/docs](http://localhost:3000/docs)
+- ou
 - Usando a extensão **REST Client** no arquivo `api.http`
 
 ### 📚 Scripts disponíveis
