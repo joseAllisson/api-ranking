@@ -2,6 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json  
 
 {  
-  "name": "jose alisson",  
-  "email": "teste@teste.com.br"  
+  "name": "usuario indicado",
+  "email": "teste3@teste.com.br",
+  "referrer": "093bf82f-ce39-40c6-ab43-02a8c31cda83"
 }
+
+###
+
+GET http://localhost:3333/invites/431ee259-17bb-49f4-94f7-00f1735a2bd2
+
+###
+
+GET http://localhost:3333/subscribers/431ee259-17bb-49f4-94f7-00f1735a2bd2/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/431ee259-17bb-49f4-94f7-00f1735a2bd2/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/431ee259-17bb-49f4-94f7-00f1735a2bd2/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
