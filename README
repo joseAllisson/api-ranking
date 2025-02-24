@@ -1,0 +1,65 @@
+# NLW Project
+
+## 🚀 Configuração do Ambiente
+
+### Pré-requisitos
+Certifique-se de ter o **Node.js** instalado em sua máquina.
+
+### 🛠️ Passos para rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+  git clone <URL_DO_REPOSITORIO>
+  cd nlw
+```
+
+2. Instale as dependências:
+
+```bash
+  npm install
+```
+
+3. Configure as variáveis de ambiente:
+
+```bash
+  cp .env.example .env
+```
+
+4. Execute o Docker Compose:
+
+```bash
+  docker compose up -d
+```
+
+5. Gere e aplique as migrações com Drizzle:
+
+```bash
+  npx drizzle-kit generate
+  npx drizzle-kit migrate
+```
+
+6. Inicie o servidor em modo de desenvolvimento:
+
+```bash
+  npm run dev
+```
+
+### 📚 Scripts disponíveis
+
+- `npm run dev` – Inicia o servidor em modo de desenvolvimento
+- `npm run build` – Faz o build do projeto
+- `npm run test` – Executa os testes (atualmente não configurado)
+
+### 📦 Tecnologias Utilizadas
+
+- Fastify
+- Drizzle ORM
+- TypeScript
+- Docker
+- Redis
+
+### 📄 Licença
+
+Este projeto está licenciado sob a licença ISC.
+
