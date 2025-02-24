@@ -45,6 +45,11 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
   npm run dev
 ```
 
+7. Acesse a documentação da API:
+
+- Via Swagger em: [http://localhost:3000/docs](http://localhost:3000/docs)
+- Usando a extensão **REST Client** no arquivo `api.http`
+
 ### 📚 Scripts disponíveis
 
 - `npm run dev` – Inicia o servidor em modo de desenvolvimento
@@ -58,8 +63,3 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 - TypeScript
 - Docker
 - Redis
-
-### 📄 Licença
-
-Este projeto está licenciado sob a licença ISC.
-
